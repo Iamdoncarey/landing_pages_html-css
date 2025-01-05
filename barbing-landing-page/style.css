@@ -1,0 +1,103 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container Background */
+.barbing-container {
+    background-image: url(images/young-african-american-man-visiting-barbershop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.barbing-container2{
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0,0,0,1),rgba(0,0,0,.7),rgba(0,0,0,.3), rgba(0,0,0,0));
+}
+
+/* Container Styling */
+.container {
+    padding: 30px 70px;
+    color: #fff;
+
+}
+
+/* Navigation Menu */
+ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.hero li a {
+    text-decoration: none;
+    color: #fff; /* Default color */
+    transition: all 0.3s ease;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Header Text Styling */
+.header-text {
+    color: white;
+    margin: 70px;
+    width: 45%;
+    padding-bottom: 194px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.header-text p {
+    font-size: .8rem;
+    margin-bottom: 15px;
+}
+
+/* Arrow Icon Styling */
+.arrow-icon {
+    width: 25px; /* Expanded width */
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Gold Span Styling */
+.header-text span {
+    color: rgb(185, 159, 11);
+}
+
+/* Buttons Styling */
+.highlight-btn {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.highlight-btn:hover {
+    background-color: gold;
+    color: white;
+}
+
+.highlight{
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-right: 10px;
+    display: inline-block;
+}
