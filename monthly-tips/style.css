@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+}
+.monthly-container{
+    position: absolute;
+    background-color: rgb(145, 145, 4);
+    display: flex;
+}
+.monthly-container .first-part{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px 10px 250px;
+    gap: 20px;
+}
+.first-part h2{
+    font-size: 52px;
+    color: #fff;
+}
+.first-part span{
+    color: rgb(173, 5, 5);
+}
+.first-part p{
+    color: #fff;
+}
+
+
+/* FORM */
+.monthly-container2{
+    position: absolute;
+    background-color: rgb(29, 9, 48);
+    width: 450px;
+    margin-left: 250px;
+    top: 270px;
+
+}
+.section2-container{
+    display: flex;
+}
+.monthly-container2 h1{
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.monthly-container2 p{
+    color: #a5a5a5;
+    font-size: 12px;
+    margin: 10px 0 10px 30px;
+}
+.monthly-container2 .form-monthly input{
+    font-size: 16px;
+    padding: 16px;
+    margin-left: 30px;
+    width: 80%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.monthly-container2 button{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: orangered;
+    margin: 20px 0 30px 30px;
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+label{
+    padding-top: 15px;
+    margin: 30px;
+    font-size: 12px;
+    color: #fff;
+    gap: 3px;
+}
+
+.container-info{
+    background-color: blue;
+    z-index: 6;
+}
